@@ -1,0 +1,41 @@
+.head
+{
+    height: 30%;
+    width:100%;
+    padding-bottom:3% ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bottom{
+    height: 70%;
+    width: 100%;
+}
+ul{
+    padding-top: 3%;
+    padding-left: 2%;
+}
+li{
+    list-style:circle inside;
+}
+#caoshu{
+    padding-left: 3%;
+}
+#di{
+    padding-left:4%;
+    font-size: 20px;
+}
+#bottom{
+    padding-left:40%;
+    padding-top:3%;
+}
+#photo{
+    height: 100%;
+    width: 20%;
+}
+#introduce{
+    height: 100%;
+    width: 80%;
+    float: right;
+}

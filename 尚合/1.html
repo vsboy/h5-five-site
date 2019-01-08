@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css" media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            border:0;
+        }
+        ol, ul ,li{list-style: none;}
+        a{
+            text-decoration:none;
+        }
+        .w{
+            width:980px;
+            margin:0 auto;
+        }
+        .fl{
+            float:left;
+        }
+        .fr{
+            float:right;
+        }
+        body{
+            font:12px "宋体";
+        }
+        .header{
+            height: 62px;
+            /* background-color:blue; */
+        }
+       .header .logo a{
+            display: block;
+            width:180px;
+            height: 62px;
+            text-indent:-9999999px;
+            background:url(images/logo.png) 0 15px no-repeat;
+        }
+        .header .search{
+            width: 199px;
+            height: 32px;
+            /* background-color:pink; */
+            margin-top:15px;
+        }
+        .header .search .txt{
+            width: 162px;
+            height: 28px;
+        }
+        .header .search .btn{
+            width: 33px;
+            height: 32px;
+            background:url(images/search2.jpg) 0 0 no-repeat;
+        }
+        .nav{
+            height: 56px;
+            border-top:1px solid #E1E1E1;
+            background:url(images/nav_bg.png) 0 0 repeat-x;
+        }
+        .nav ul li{
+            float:left;
+        }
+        .nav ul li a{
+            text-decoration:none;
+            display: block;
+            height: 56px;
+            width: 136px;
+            text-align:center;
+            line-height:56px;
+            background:url(images/nav_bg-line.png) right 0 no-repeat;
+        }
+        .photo{
+            height: 597px;
+            background-image:url('images/banner.jpg');
+        }
+        .notice{
+            height: 30px;
+            line-height:30px;
+            border-top:1px solid #efefef;
+            border-bottom:1px solid #efefef;
+            background-color:#fbfbfb;
+        }
+        .notice .imgs{
+            margin-top:5px;
+        }
+        .news{
+            height: 226px;
+            margin-top:15px;
+            margin-bottom:16px;
+           /*  background-color:pink; */
+        }
+        .news .newsL{
+            width: 312px;
+            height:226px;
+        }
+        .news .newsC{
+            width: 368px;
+            height:226px;
+            margin:0px 10px;
+        }
+        .news .newsR{
+            width: 274px;
+            height:226px;
+        }
+        .news>div{
+        border:1px solid #D6D6D6;
+        /* background-color:blue; */
+        }
+        .newsTitle{
+        height: 40px;
+        }
+        .newsTitle h3{
+            height: 40px;
+            line-height:40px;
+            background:url(images/o.jpg) 6px 8px no-repeat;
+            padding-left:26px;
+            color:#7AB800;
+        }
+        .newsList{
+            height: 186px;
+        }
+        .newsList .le{
+            display:block;
+            width:44px;
+            height: 186px;
+            text-align:center;
+            line-height:186px;
+        }
+        .newsList .ce{
+            display:block;
+            width:224px;
+            height: 186px;
+
+        }
+        .newsList .re{
+            display:block;
+            width:44px;
+            height: 186px;
+            text-align:center;
+            line-height:186px;
+        }
+        .by{
+            height:93px;
+            background-color:rgb(45, 45, 45);
+        }
+        .by .bb{
+            height:20px;
+            border-bottom:1px dashed grey;
+
+        }
+        .by .si{
+            height: 70px;
+            width: 440px;
+            margin:0 auto;
+            text-align:center;
+            padding-top:15px;
+            color:rgb(112,112,112);
+        }
+        .c{
+            border-left:0.1px solid green;
+            border-width:1px;
+        }
+    </style>
+</head>
+<body>
+        <div class="w header">
+            <h1 class="logo fl"><a href="#">尚合公司</a></h1>
+            <div class="search fr">
+                <input type="text" name="" placeholder="请输入" class="txt fl">
+                <input type="button" name="" class="btn fr">
+            </div>
+        </div>
+        <div class="nav">
+            <div class="w">
+                <ul class="">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">智能手机</a></li>
+                    <li><a href="#">平板电脑</a></li>
+                    <li><a href="#">配件</a></li>
+                    <li><a href="#">服务支持</a></li>
+                    <li><a href="#">关于尚合</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="photo w">
+        </div>
+        <div class="notice">
+            <div class="w">
+                <div class="fl">
+                    最新公告:尚合Aone智能手机入网证
+                </div>
+                <div class="imgs fr">
+                    <a href="#"><img src="images/zone.png" alt=""></a>
+                    <a href="#"><img src="images/weibo.png" alt=""></a>
+                    <a href="#"><img src="images/xinlang.png" alt=""></a>
+                    <a href="#"><img src="images/renren.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="news w">
+            <div class="newsL fl">
+                <div class="newsTitle">
+                    <h3 class="fl">新品发布</h3>
+                </div>
+                <div class="newsList">
+                    <a href="#" class="le fl" ><img src="images/left.png" alt="" class="b"></a>
+                    <a href="#" class="ce fl"><img src="images/5.jpg" alt=""></a>
+                    <a href="#" class="re fl"><img src="images/right.png" alt=""></a>
+                </div>
+            </div>
+            <div class="newsC fl">
+                <div class="newsTitle">
+                    <h3 class="fl">新闻中心</h3>
+                </div>
+                <div class="newsList">
+                    <ul>
+                       <font color="red"><li style="border-bottom:1px dashed grey;">&nbsp;&nbsp;致歉公告</li></font>
+                        <br>
+                        <br>
+                        <li style="border-bottom:1px dashed grey;">&nbsp;&nbsp;致歉声明</li>
+                        <br>
+                        <br>
+                        <li style="border-bottom:1px dashed grey;">&nbsp;&nbsp;致歉声明</li>
+                        <br>
+                        <br>
+                        <li style="border-bottom:1px dashed grey;">&nbsp;&nbsp;致歉声明</li>
+                        <br>
+                        <br>
+                        <li style="border-bottom:1px dashed grey;">&nbsp;&nbsp;致歉声明</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="newsR fl">
+                <div class="newsTitle">
+                    <h3 class="fl">技术与支持</h3>
+                </div>
+                <div class="newsList">
+                    <br>
+                    <ul>
+                        <li style="border-left:2px solid green;margin-left: 10px;">&nbsp;致歉声明</li>
+                        <br>
+                        <li style="border-left:2px solid green;margin-left: 10px;">&nbsp;致歉声明</li>
+                        <br>
+                        <li style="border-left:2px solid green;margin-left: 10px;">&nbsp;致歉声明</li>
+                        <br>
+                        <li style="border-left:2px solid green;margin-left: 10px;">&nbsp;致歉声明</li>
+                    </ul>
+                   <br>
+                   <br>
+                    <p>
+                    &nbsp;&nbsp;致歉声明致歉声明致歉声明致歉声明
+                    </p>
+                    <p>
+                    &nbsp;&nbsp;致歉声明致歉声明致歉声明致歉声明
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div  class="by">
+            <div class="bb">
+
+            </div>
+            <div class="si">
+
+                <p>深圳市居中和优先公司实训</p>
+                <p>会居中和优先公司</p>
+            </div>
+        </div>
+</body>
+</html>
